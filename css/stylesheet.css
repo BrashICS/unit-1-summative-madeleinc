@@ -78,7 +78,7 @@ p{
 
 .navi li{
     display: inline-block;
-}
+} 
 
 .container{
     max-width: 65%;
@@ -88,5 +88,36 @@ p{
     border-left: 10px solid #ecefec;
     border-right: 10px solid #ecefec;
     margin-top: auto;
-    
+
+}
+
+.logo{
+    display: block;
+    margin: 20px auto;
+    max-width: 65%;
+    height: auto;
+    margin-top: 60px;
+    height: 500px;
+
+}
+
+.tinylogo{
+    display: block;
+    margin: 20px auto;
+    max-width: 30%;
+    height: auto;
+    margin-top: 60px;
+    height: 40px;
+    width: 60px;
+}
+
+.regimg{
+    display: block;
+    margin: 20px auto;
+    max-width: 65%;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 3px solid;
+    border-color: #008549;
 }
