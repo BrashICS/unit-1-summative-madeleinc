@@ -1,9 +1,13 @@
-
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
 
 body{
     margin:0%;
     padding:0%;
-    background: #ecefec;
+    background: #008549;
     width: 100%;
 }
 
@@ -13,11 +17,12 @@ h1{
     color:#008549;
     background:#cfe8cf;
     margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-top: 20px;
     padding-bottom: 10px;
-    position: fixed;
     top: 0%;
-    width: 100%;
+    max-width: 100%;
 }
 
 h2{
@@ -33,19 +38,20 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #008549;
     overflow-wrap:anywhere;
-    font-size: 15px;
+    font-size: 55px;
 }
+
 
 .navi ul{
     list-style: none;
     background-color:#cfe8cf;
-    padding: 0px;
-    margin: 0%;
     overflow: hidden;
     text-align:center;
-    position: fixed;
-    top: 55px;;
-    width: 100%;
+    top: 55px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%;
 }
 
 .navi a{
@@ -65,3 +71,11 @@ p{
     display: inline-block;
 }
 
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: #ecefec;
+    padding: 10px;
+    border-left: 5px solid #ecefec;
+    border-right: 5px solid #ecefec;
+}
