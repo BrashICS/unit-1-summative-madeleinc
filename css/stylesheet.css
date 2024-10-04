@@ -32,15 +32,21 @@ h2{
     overflow-wrap:anywhere;
     font-size: 30px;
     text-align: center;
-    margin-top: 170px;
+    margin-top: 140px;
     margin-bottom: 20px;
 }
 
 p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #008549;
+    background-color: #cfcfcf38;
+    border: 3px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
     overflow-wrap:anywhere;
-    font-size: 55px;
+    font-size: 20px;
+    text-align: justify;
 }
 
 
@@ -81,4 +87,6 @@ p{
     padding: 10px;
     border-left: 10px solid #ecefec;
     border-right: 10px solid #ecefec;
+    margin-top: auto;
+    
 }
