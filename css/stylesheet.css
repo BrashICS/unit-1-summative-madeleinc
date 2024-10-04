@@ -121,3 +121,11 @@ p{
     border: 3px solid;
     border-color: #008549;
 }
+
+.link{
+    color: #008549;
+}
+
+.link:hover{
+    color: white;
+}
